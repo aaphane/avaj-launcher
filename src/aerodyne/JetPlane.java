@@ -1,4 +1,4 @@
-package Aircrafts;
+package aerodyne;
 
 public class JetPlane {
 
