@@ -1,5 +1,9 @@
 package embrasure;
 
-public interface Flyable {
+import atmospheric_conditions.WeatherTower;
 
+public interface Flyable {
+	
+	public void updateConditions();
+	public void registerTower(WeatherTower weatherTower);
 }
