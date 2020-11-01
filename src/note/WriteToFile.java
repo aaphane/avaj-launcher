@@ -23,23 +23,27 @@ public class WriteToFile {
             fileWriter = new FileWriter(file);
             bufferedWriter = new BufferedWriter(fileWriter);
 
-        }catch (IOException e){}
+        }
+        catch (IOException e){}
 
         return writeFile;
     }
+    
 
     public  void  writingToFile(String str){
         try{
             bufferedWriter.write(str);
             bufferedWriter.newLine();
-        }catch (IOException e){}
+        }
+        catch (IOException e){}
     }
     public  void close(){
         try{
             if(bufferedWriter !=null)
                 bufferedWriter.close();
 
-        }catch(IOException e){
+        }
+        catch(IOException e){
             System.out.println("Error in closing the BufferedWriter" + e);
         }
     }
