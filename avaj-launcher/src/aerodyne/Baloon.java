@@ -16,7 +16,7 @@ private WeatherTower weatherTower;
 	
    // System.out.println("before the coordinates");
 
-	String weatherCondition = weatherTower.getWeather(this.coordinates);
+	
    // System.out.println("after the coordinates");
 
 	
@@ -25,6 +25,8 @@ private WeatherTower weatherTower;
     String unregToFile = "";
 	
 	public void updateConditions() {
+		
+		String weatherCondition = weatherTower.getWeather(this.coordinates);
 		if(weatherCondition == "RAIN"){
             coordinates = new Coordinates(
                     coordinates.getLongitude(),
