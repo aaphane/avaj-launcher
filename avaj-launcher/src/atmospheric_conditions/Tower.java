@@ -2,7 +2,6 @@ package atmospheric_conditions;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import embrasure.Flyable;
 
 public class Tower {

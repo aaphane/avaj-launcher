@@ -13,7 +13,7 @@ public class Aircraft {
 	}
 	
 	protected long nextID () {
-		return (Aircraft.idCounter++);
+		return (idCounter++);
 	}
 
 }

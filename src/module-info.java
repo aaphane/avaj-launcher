@@ -1,2 +1,0 @@
-module avaj_launcher {
-}

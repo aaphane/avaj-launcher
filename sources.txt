@@ -1,0 +1,12 @@
+./avaj-launcher/src/aerodyne/Aircraft.java
+./avaj-launcher/src/aerodyne/AircraftFactory.java
+./avaj-launcher/src/aerodyne/Baloon.java
+./avaj-launcher/src/aerodyne/Coordinates.java
+./avaj-launcher/src/aerodyne/Helicopter.java
+./avaj-launcher/src/aerodyne/JetPlane.java
+./avaj-launcher/src/atmospheric_conditions/Tower.java
+./avaj-launcher/src/atmospheric_conditions/WeatherProvider.java
+./avaj-launcher/src/atmospheric_conditions/WeatherTower.java
+./avaj-launcher/src/embrasure/Flyable.java
+./avaj-launcher/src/fraud/Simulator.java
+./avaj-launcher/src/note/WriteToFile.java

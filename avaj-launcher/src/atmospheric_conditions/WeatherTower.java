@@ -4,6 +4,7 @@ package atmospheric_conditions;
 
 import java.io.*; 
 
+import java.io.IOException;
 
 import aerodyne.Coordinates;
 
@@ -13,12 +14,7 @@ public class WeatherTower extends Tower {
         return WeatherProvider.getProvider().getCurrentWeather(coordinates);
 	}
 	
-	public void changeWeather() {
-		try {
-            this.conditionsChanged();
-        }
-		catch (IOException e) {
-            e.printStackTrace();
-        }
+	public void changeWeather() throws IOException {
+		this.conditionsChanged();
 	}
 }
